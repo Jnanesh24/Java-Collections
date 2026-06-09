@@ -13,7 +13,7 @@ public class Mainclass {
         char c1 = str.charAt(3);
         System.out.println(c1);
         
-        int idx = str.indexOf('s');
+        int idx = str.indexOf('p');
         System.out.println(idx);
         
         int idx2 = str.indexOf('s',2);

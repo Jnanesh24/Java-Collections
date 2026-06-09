@@ -6,9 +6,10 @@ import bean.Employee;
 
 public class Mainclass {
 
-	static ArrayList<Employee> elist;
+    static ArrayList<Employee> elist;
 
-	public static void createArrayListData() {
+	public static void createArrayListData() 
+	{
 		elist = new ArrayList<Employee>();
 
 		Employee e1 = new Employee(1, "Smith", "Dev", 2341.2);
@@ -22,6 +23,7 @@ public class Mainclass {
 		elist.add(e3);
 		elist.add(e4);
 		elist.add(e5);
+		
 	}
 
 	public static void getEmployees() 

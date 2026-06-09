@@ -7,7 +7,7 @@ public class Mainclass
 		System.out.println("test() starts");
 
 		int res = 50 / num;
-		System.out.println("res = " + res);
+		System.out.println("res = "+res );
 
 		System.out.println("test() ends");
 	}

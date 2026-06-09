@@ -11,7 +11,7 @@ class Account
 	{
 		if(bal > 0)
 		{
-		 this.bal = bal;
+		this.bal = bal;
 		}
 		else
 		{
@@ -36,7 +36,7 @@ class Transaction
 	{
 		double currBal = ref.getBal();//get current bal
 		double newBal = currBal + amt;//calculate new bal
-	  	ref.setBal(newBal);//update the new bal
+	  	ref.setBal(newBal);//update the new bal;
 	}
 	
 	public static void withdraw(double amt,Account ref)
@@ -62,7 +62,7 @@ public class Mainclass
        Account a2 = new Account();
        
        
-       Transaction.deposit(-1000,a1);
+       Transaction.deposit(2000,a1);
        Transaction.showbal(a1);
        
        Transaction.showbal(a2);
